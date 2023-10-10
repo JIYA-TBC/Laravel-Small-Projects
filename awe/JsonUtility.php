@@ -72,6 +72,7 @@ class JsonUtility
 
         if($producttype=='cd') $newProduct['playlength'] = $pages;
         if($producttype=='book') $newProduct['numpages'] = $pages;
+        if($producttype=='game') $newProduct['pegi'] = $pages;
 
         $products[] = $newProduct;
 

@@ -25,7 +25,7 @@ class GameProduct extends ShopProduct
             $mainName,
             $price
         );
-        $this->duration = $pegi;
+        $this->pegi = $pegi;
     }
 
     public function getPanEuropeanGameInformation()
