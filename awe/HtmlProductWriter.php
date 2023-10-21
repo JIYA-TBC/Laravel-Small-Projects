@@ -158,13 +158,14 @@ class HtmlProductWriter extends ShopProductWriter
           <select id="producttype" name="producttype">
                 <option value="cd">CD</option>
                 <option value="book">Book</option>
+                <option value="game">Game</option>
           </select> 
           <br />
           <br />
          <label for="name">Author / Artist:</label><br />
          <label for="fname">First Name:</label>
            <input type="text" id="fname" name="fname"><br />
-          <label for="sname">Main Name / Surname:</label>
+          <label for="sname">Main Name / Surname / Console:</label>
            <input type="text" id="sname" name="sname">
            <br />
            <br />
@@ -172,7 +173,7 @@ class HtmlProductWriter extends ShopProductWriter
            <input type="text" id="title" name="title">
            <br />
            <br />
-         <label for="pages">Pages/Duration:</label>
+         <label for="pages">Pages/Duration/PEIG:</label>
            <input type="text" id="pages" name="pages">
            <br />
            <br />
