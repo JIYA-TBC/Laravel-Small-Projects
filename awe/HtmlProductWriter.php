@@ -131,7 +131,7 @@ class HtmlProductWriter extends ShopProductWriter
         }
         return
             '
-            <h3>GAMEs</h3>
+            <h3>GAMES</h3>
             <table class="paleBlueRows equal-width">
                  <thead>
                     <tr>                    
@@ -162,7 +162,7 @@ class HtmlProductWriter extends ShopProductWriter
           </select> 
           <br />
           <br />
-         <label for="name">Author / Artist:</label><br />
+         <label for="name">Author / Artist / Console:</label><br />
          <label for="fname">First Name:</label>
            <input type="text" id="fname" name="fname"><br />
           <label for="sname">Main Name / Surname / Console:</label>
@@ -173,7 +173,7 @@ class HtmlProductWriter extends ShopProductWriter
            <input type="text" id="title" name="title">
            <br />
            <br />
-         <label for="pages">Pages/Duration/PEIG:</label>
+         <label for="pages">Pages/Duration/PEGI:</label>
            <input type="text" id="pages" name="pages">
            <br />
            <br />
